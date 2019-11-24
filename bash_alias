@@ -24,5 +24,8 @@ alias q='clear'
 alias h='history'
 alias rt='rm *~'
 alias cu='clearup'
+
+PATH=$HOME/work/q-e/bin:$PATH
+
 PS1="`hostname -s`% "
 
