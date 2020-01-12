@@ -1,0 +1,28 @@
+&control
+   calculation = 'scf'
+   restart_mode='from_scratch',
+   prefix='gaas',
+   pseudo_dir='./'
+   outdir = './'
+/
+&system    
+   ibrav=  2,
+   celldm(1) =10.6, 
+   nat=  2, ntyp= 2,
+   ecutwfc = 30, 
+   nbnd = 18
+/
+&electrons
+  diagonalization='david'
+  mixing_mode = 'plain'
+  mixing_beta = 0.3 
+  conv_thr =  1.0d-10
+/
+ATOMIC_SPECIES
+ Ga  69.723  Ga.pbe-n-van.UPF
+ As  74.9216 As.pbe-n-van.UPF
+ATOMIC_POSITIONS
+ Ga 0.00 0.00 0.00 
+ As 0.250 0.250 0.250
+K_POINTS {automatic}
+ 4 4 4 1 1 1
