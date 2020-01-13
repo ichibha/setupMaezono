@@ -1,8 +1,8 @@
 #########################################
 # Added by Maezono for general operations
 
-alias setal='emacs -nw ~/.bashrc'
-alias fixal='source    ~/.bashrc'
+alias setal='emacs -nw ~/work/setupMaezono/bash_alias'
+alias fixal='source ~/work/setupMaezono/bash_alias'
 alias mnw='emacs -nw'
 alias smnw='sudo emacs -nw'
 alias rehash='hash -r'
