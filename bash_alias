@@ -26,6 +26,7 @@ alias rt='rm *~'
 alias cu='clearup'
 
 PATH=$HOME/work/q-e/bin:$PATH
+PATH=$HOME/.local/bin/:$PATH
 
 PS1="`hostname -s`% "
 
