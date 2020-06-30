@@ -2,7 +2,7 @@
 # Added by Maezono for general operations
 
 alias setal='emacs -nw ~/work/setupMaezono/bash_alias'
-alias fixal='source ~/work/setupMaezono/bash_alias'
+alias fixal='source    ~/wori/setupMaezono/bash_alias'
 alias mnw='emacs -nw'
 alias smnw='sudo emacs -nw'
 alias rehash='hash -r'
@@ -26,7 +26,6 @@ alias rt='rm *~'
 alias cu='clearup'
 
 PATH=$HOME/work/q-e/bin:$PATH
-PATH=$HOME/.local/bin/:$PATH
 
 PS1="`hostname -s`% "
 
