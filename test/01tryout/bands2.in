@@ -1,0 +1,6 @@
+&bands
+outdir = './out_qa',
+prefix='qa',
+filband='qa.band',
+lsym=.true.
+/

@@ -1,0 +1,5 @@
+&projwfc
+outdir = './out_qa',
+prefix='qa',
+degauss = 0.01
+/
