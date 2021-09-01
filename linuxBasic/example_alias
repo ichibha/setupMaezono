@@ -1,0 +1,13 @@
+alias enw='emacs -nw'
+alias rmdir='rm -r'
+alias l='ls -CF '
+alias ls='ls -CF'
+alias ll='ls -lh'
+alias llm='ls -l | more'
+alias la='ls -a'
+alias la='ls -a'
+alias cup='cd ..; ls'
+alias q='clear'
+alias h='history'
+alias rt='rm *~'
+
