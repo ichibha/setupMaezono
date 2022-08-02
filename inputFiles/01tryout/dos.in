@@ -1,5 +1,0 @@
-&dos
-outdir = './out_qa',
-prefix='qa',
-fildos='qa.dos',
-/
