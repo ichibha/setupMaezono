@@ -1,0 +1,48 @@
+
+     Program BANDS v.6.4.1 starts on  7Jul2020 at  3:12:26 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     1 processors
+
+     MPI processes distributed on     1 nodes
+
+     Reading data from directory:
+     ./out_qa/qa.save/
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation      = PBE ( 1  4  3  4 0 0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+               file Si.pbe-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  3S 3P renormalized
+               file O.pbe-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  2S 2P renormalized
+
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum        2383    1189    349               103151    36345    5701
+
+
+     Check: negative core charge=   -0.000002
+     high-symmetry point:  0.0000 0.0000 0.0000   x coordinate   0.0000
+     high-symmetry point:  0.5774 0.0000 0.0000   x coordinate   0.5774
+     high-symmetry point:  0.5774 0.3333 0.0000   x coordinate   0.9107
+     high-symmetry point:  0.0000 0.0000 0.0000   x coordinate   1.5774
+     high-symmetry point:  0.0000 0.0000 0.4545   x coordinate   2.0318
+     high-symmetry point:  0.5774 0.0000 0.4545   x coordinate   2.6092
+     high-symmetry point:  0.5774 0.3333 0.4545   x coordinate   2.9425
+     high-symmetry point:  0.0000 0.0000 0.4545   x coordinate   3.6092
+     high-symmetry point:  0.5774 0.0000 0.4545   x coordinate   4.1865
+     high-symmetry point:  0.5774 0.0000 0.0000   x coordinate   4.6410
+     high-symmetry point:  0.5774 0.3333 0.0000   x coordinate   4.9744
+     high-symmetry point:  0.5774 0.3333 0.4545   x coordinate   5.4289
+
+     Plottable bands (eV) written to file qa.band.gnu
+     Bands written to file qa.band

@@ -1,0 +1,22 @@
+Quartz Structure
+    http://rruff.geo.arizona.edu/AMS/minerals/Quartz
+    %------------------
+    alpha-Quartz/0015462
+    beta-Quartz/0018071
+
+Cristobalite Structure
+    http://rruff.geo.arizona.edu/AMS/minerals/Cristobalite
+    %------------------
+    alpha-Cristobalite/0001629
+    beta-Cristobalite/0017665
+
+Quantum Espresso
+    https://www.quantum-espresso.org/
+
+    https://www.quantum-espresso.org/upf_files/C.pbe-n-kjpaw_psl.1.0.0.UPF
+
+    wget https://www.quantum-espresso.org/upf_files/O.pbe-n-kjpaw_psl.1.0.0.UPF
+    wget https://www.quantum-espresso.org/upf_files/O.pbe-n-rrkjus_psl.1.0.0.UPF
+    wget https://www.quantum-espresso.org/upf_files/Si.pbe-n-kjpaw_psl.1.0.0.UPF
+    wget https://www.quantum-espresso.org/upf_files/Si.pbe-n-rrkjus_psl.1.0.0.UPF
+
